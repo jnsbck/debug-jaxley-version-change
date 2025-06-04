@@ -99,7 +99,7 @@ wheels = [
 
 [[package]]
 name = "jaxley"
-version = "0.8.2"
+version = "0.9.0"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "jax" },
@@ -109,9 +109,9 @@ dependencies = [
     { name = "pandas" },
     { name = "tridiax" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/ba/72/969be11735cc7a8f22d25dfa7c57f6417dde1fabe19c33b4fd28d85d764a/jaxley-0.8.2.tar.gz", hash = "sha256:d55d23a75e85b303e811f09ff5ea315103d4c0aad5528343b410eadce453f16b", size = 163183 }
+sdist = { url = "https://files.pythonhosted.org/packages/84/be/b5f7808c8392be615162d063bcc4b8309e6796bc37a811aa7d8b695dfff1/jaxley-0.9.0.tar.gz", hash = "sha256:178e93896e148c75009a2dc8361f435249ade24b3c6fdbadcd7893b69e5c949a", size = 180082 }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/7b/41/2e951579653110213d36f816366e43856beef7ffb69ebc2258b40e59fb81/jaxley-0.8.2-py3-none-any.whl", hash = "sha256:31b7a13a3e0bcdf026a8c0222073a1adffef4a7ac4b88b68c1686c71c9e27cc0", size = 207902 },
+    { url = "https://files.pythonhosted.org/packages/ef/be/e1c6671825a22d33ce719d712c5a4d92104d1d6d7f7f97b17ab7515fea51/jaxley-0.9.0-py3-none-any.whl", hash = "sha256:f252963f1e8abe13d6f51d1cfc4f10bc1dace39e6390ad5a4b643fae07f5b16f", size = 225556 },
 ]
 
 [[package]]
@@ -467,7 +467,7 @@ dependencies = [
 ]
 
 [package.metadata]
-requires-dist = [{ name = "jaxley", specifier = "==0.8.2" }]
+requires-dist = [{ name = "jaxley", specifier = "==0.9.0" }]
 
 [[package]]
 name = "tridiax"
